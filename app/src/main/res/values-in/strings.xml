@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Story App</string>
+    <string name="something_wrong">Terjadi kesalahan</string>
+
+    <string name="signup">Daftar</string>
+    <string name="illustration">Ilustrasi</string>
+    <string name="title_signup_page">Lengkapi data dirimu di bawah ini ya!</string>
+    <string name="name">Nama</string>
+    <string name="email">SIGN IN</string>
+    <string name="password">Password</string>
+    <string name="input_name">Masukkan Nama</string>
+    <string name="input_email">Masukkan Email</string>
+    <string name="input_password">Masukkan Password</string>
+
+    <string name="login">Masuk</string>
+    <string name="message_login_page">Masukkan data</string>
+    <string name="title_login_page">Bagikan kegiatanmu sehari-hari</string>
+
+    <string name="story_photo">Gambar Story</string>
+    <string name="story_username">Nama</string>
+    <string name="story_description">Deskripsi</string>
+    <string name="not_found">Data tidak ditemukan</string>
+    <string name="retry">Coba lagi</string>
+
+    <string name="logout">Keluar</string>
+    <string name="cancel">Batal</string>
+    <string name="message_logout_dialog">Apakah anda yakin ingin keluar?</string>
+
+    <string name="add_story">Tambah Story</string>
+    <string name="image_preview">Pratinjau gambar</string>
+    <string name="camera">Kamera</string>
+    <string name="gallery">Galeri</string>
+    <string name="upload">Unggah</string>
+    <string name="take_photo">Ambil gambar</string>
+    <string name="switch_camera">Putar kamera</string>
+    <string name="image_not_found">Anda belum mengambil gambar</string>
+
+    <string name="settings">Pengaturan</string>
+    <string name="light_mode">Mode Terang</string>
+    <string name="activate">Aktifkan</string>
+    <string name="dark_mode">Mode Gelap</string>
+    <string name="successfully_uploaded">Gambar berhasil diunggah</string>
+    <string name="pick_from_gallery">Ambil dari Galeri</string>
+    <string name="change">Ganti Gambar</string>
+    <string name="hint_description">Masukkan deskripsi…</string>
+
+    <string name="example_mail">Email</string>
+    <string name="input_description">Masukkan keterangan</string>
+    <string name="choose_picture">Pilih gambar</string>
+    <string name="take_photo_failed">Gagal mengambil gambar</string>
+    <string name="unable_show_camera">Tidak dapat membuka kamera</string>
+    <string name="permission_granted">Izin diterima</string>
+    <string name="permission_denied">Izin ditolak</string>
+    <string name="turis">Turis</string>
+    <string name="title_home">Title Home</string>
+    <string name="history">History</string>
+    <string name="favorite">Favorite</string>
+    <string name="profile">Profile</string>
+    <string name="fixname">Name</string>
+    <string name="date">Date</string>
+    <string name="status">Status</string>
+</resources>

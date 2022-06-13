@@ -1,0 +1,71 @@
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <com.jsibbold.zoomage.ZoomageView
+        android:id="@+id/img_story_photo"
+        android:layout_width="299dp"
+        android:layout_height="477dp"
+        android:layout_marginTop="4dp"
+        android:clipToPadding="false"
+        android:contentDescription="@string/story_photo"
+        android:scaleType="centerInside"
+        app:layout_constraintDimensionRatio="H,16:9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="spread"
+        app:zoomage_restrictBounds="true"
+        tools:src="@tools:sample/backgrounds/scenic" />
+
+    <TextView
+        android:id="@+id/tv_story_title"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="316dp"
+        android:background="@color/semi_transparent"
+        android:gravity="center"
+        android:maxHeight="200dp"
+        android:padding="16dp"
+        android:text="@string/turis"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_story_description"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="116dp"
+        android:background="@color/semi_transparent"
+        android:gravity="center"
+        android:maxHeight="200dp"
+        android:padding="16dp"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:text="@tools:sample/lorem/random" />
+
+    <ToggleButton
+        android:id="@+id/toggle_favorite"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="640dp"
+        android:layout_marginEnd="56dp"
+        android:background="@drawable/toggle_favorite"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:textOff=""
+        android:textOn=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

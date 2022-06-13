@@ -1,0 +1,35 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Theme.PubInCare" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Nav Bar Color. -->
+        <item name="android:navigationBarColor" >@color/color_primary</item>
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/color_primary</item>
+        <item name="colorPrimaryDark">@color/color_primary_dark</item>
+        <item name="colorAccent">@color/color_accent</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" >@color/color_primary</item>
+        <!-- Customize your theme here. -->
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:textColorSecondary">@color/white</item>
+        <item name="actionBarStyle">@style/Theme.Submission1.ActionBar</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+    </style>
+
+    <style name="Theme.Submission1.ActionBar" parent="Widget.AppCompat.ActionBar">
+        <item name="elevation" >0dp</item>
+        <item name="background">@color/semi_transparent</item>
+    </style>
+
+    <style name="IconHome">
+        <item name="android:maxWidth">72dp</item>
+        <item name="android:maxHeight">72dp</item>
+        <item name="android:tint">@color/white</item>
+    </style>
+    <style name="Button">
+        <item name="android:textColor">@color/gray_700</item>
+        <item name="android:backgroundTint">@color/white</item>
+        <item name="android:layout_margin">20dp</item>
+    </style>
+</resources>

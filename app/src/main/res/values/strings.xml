@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">PubInCare</string>
+    <string name="something_wrong">Oops.. something went wrong.</string>
+
+    <string name="signup">SIGN UP</string>
+    <string name="illustration">Illustration</string>
+    <string name="title_signup_page">Please complete your data below</string>
+    <string name="name">Name</string>
+    <string name="email">SIGN IN</string>
+    <string name="password">Password</string>
+    <string name="input_name">Input your Name</string>
+    <string name="input_email">Input your Email</string>
+    <string name="input_password">Input your Password</string>
+
+    <string name="login">Login</string>
+    <string name="message_login_page">Input your data</string>
+    <string name="title_login_page">Share your everyday activity</string>
+
+    <string name="story_photo">Story photo</string>
+    <string name="story_username">Name</string>
+    <string name="story_description">Description</string>
+    <string name="not_found">Data not found</string>
+    <string name="retry">Retry</string>
+
+    <string name="logout">Logout</string>
+    <string name="cancel">Cancel</string>
+    <string name="message_logout_dialog">logout?</string>
+
+    <string name="add_story">Add Story</string>
+    <string name="image_preview">Image preview</string>
+    <string name="camera">Camera</string>
+    <string name="gallery">Gallery</string>
+    <string name="upload">Upload</string>
+    <string name="take_photo">Take picture</string>
+    <string name="switch_camera">Switch camera</string>
+    <string name="image_not_found">Please take a picture first</string>
+
+    <string name="settings">Settings</string>
+    <string name="light_mode">Light Mode</string>
+    <string name="activate">Activate</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="successfully_uploaded">Image Successfully Uploaded</string>
+    <string name="pick_from_gallery">Pick From Gallery</string>
+    <string name="change">Change Picture</string>
+    <string name="hint_description">Add a caption…</string>
+
+    <string name="example_mail">Email</string>
+    <string name="input_description">Input Caption</string>
+    <string name="choose_picture">Choose a Picture</string>
+    <string name="take_photo_failed">Unable to take Picture</string>
+    <string name="unable_show_camera">Unable to show Camera</string>
+    <string name="permission_granted">Permission Granted</string>
+    <string name="permission_denied">Permission Denied</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="turis">Turis</string>
+    <string name="title_home">PUBINCARE</string>
+    <string name="message_home" translatable="false">Fixing Our Hometown One Step At A Time</string>
+    <string name="report" translatable="false">Report</string>
+    <string name="box" translatable="false">Box</string>
+    <string name="rememberme" translatable="false">Remember Me</string>
+    <string name="history">History</string>
+    <string name="favorite">Favorite</string>
+    <string name="profile">Profile</string>
+    <string name="turis_spot_name" translatable="false">Tourist Spot</string>
+    <string name="description" translatable="false">Description</string>
+    <string name="fixname">Name</string>
+    <string name="date">Date</string>
+    <string name="status">Status</string>
+</resources>
